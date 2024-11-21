@@ -4,4 +4,3 @@
 Кулемзина Надежда
 
 HW-01. Gradle.
-HW-02. Generics.
