@@ -44,7 +44,6 @@ public class Customer {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Customer customer)) return false;
-
         return (id == customer.id);
     }
 
