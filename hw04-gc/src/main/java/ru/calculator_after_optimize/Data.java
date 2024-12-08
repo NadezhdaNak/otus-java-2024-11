@@ -1,13 +1,20 @@
 package ru.calculator_after_optimize;
 
 public class Data {
-    private final Integer value;
+    private int value;
 
-    public Data(Integer value) {
+    public Data(int value) {
         this.value = value;
     }
 
-    public Integer getValue() {
+    public Data() {
+    }
+
+    public int getValue() {
         return value;
+    }
+
+    public void setValue(int value){
+        this.value = value;
     }
 }

@@ -1,23 +1,23 @@
 До оптимизации
-64m - spend msec:168200, sec:168
-128m - spend msec:108032, sec:108
-256m - spend msec:105154, sec:105 Самый оптимальный размер
-384m - spend msec:106011, sec:106
-512m - spend msec:106237, sec:106
-640m - spend msec:109564, sec:109
-1024m - spend msec:107278, sec:107
-1536m - spend msec:118970, sec:118
-2048m - spend msec:137195, sec:137
-2176m - spend msec:186145, sec:186
+64m - spend msec:117882, sec:117
+128m - spend msec:109218, sec:109
+256m - spend msec:105374, sec:105 Самый оптимальный размер
+384m - spend msec:106195, sec:106
+512m - spend msec:116632, sec:116
+640m - spend msec:109604, sec:109
+1024m - spend msec:114836, sec:114
+1536m - spend msec:107400, sec:107
+2048m - spend msec:114952, sec:114
+2176m - spend msec:119894, sec:119
 
 После оптимизации:
 64m - Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 128m - Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
-256m - spend msec:22078, sec:22 Самый оптимальный размер
-384m - spend msec:23915, sec:23
-512m - spend msec:23381, sec:23
-640m - spend msec:25406, sec:25
-1024m - spend msec:21992, sec:21
-1536m - spend msec:27155, sec:27
-2048m - spend msec:29003, sec:29
-2176m - spend msec:54041, sec:54
+256m - spend msec:22596, sec:22
+384m - spend msec:26468, sec:26
+512m - spend msec:20447, sec:20 Самый оптимальный размер
+640m - spend msec:24725, sec:24
+1024m - spend msec:23262, sec:23
+1536m - spend msec:34909, sec:34
+2048m - spend msec:44474, sec:44
+2176m - spend msec:37400, sec:37
