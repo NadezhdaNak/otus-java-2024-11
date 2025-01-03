@@ -4,10 +4,11 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Set;
 
 class ProxyInvocationHandler implements InvocationHandler {
     private final TestLoggingInterface clazz;
-    private final HashSet<Method> listLogMethod = new HashSet<>();
+    private final Set<Method> listLogMethod = new HashSet<>();
 
     ProxyInvocationHandler(TestLoggingInterface clazz) {
         this.clazz = clazz;
